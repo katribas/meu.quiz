@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Interativo</h1>
+        <div id="quiz">
+            <div class="question">
+                <p>Qual é a capital do Brasil?</p>
+                <input type="radio" name="q1" value="1"> São Paulo<br>
+                <input type="radio" name="q1" value="2"> Rio de Janeiro<br>
+                <input type="radio" name="q1" value="3"> Brasília<br>
+            </div>
+            <button onclick="submitQuiz()">Enviar</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
