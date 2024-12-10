@@ -29,6 +29,8 @@ h1 {
 }
 
 button {
+
+    transition: background-color 0.3s ease;
     background-color: #007BFF;
     color: white;
     border: none;
